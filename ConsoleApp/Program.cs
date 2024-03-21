@@ -5,9 +5,9 @@ Console.WriteLine("Hello, World!");
 Console.WriteLine(CalculateAverage([1, 4, 6, 8]));
 Console.WriteLine(CalculateMax([1, 4, 6, 8]));
 
-static double CalculateAverage(int[] input)
+static double CalculateAverage(int[] ints)
 {
-    return input.Average();
+    return ints.Average();
 }
 
 static double CalculateMax(int[] input)
