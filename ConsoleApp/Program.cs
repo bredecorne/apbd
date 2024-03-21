@@ -3,8 +3,14 @@
 
 Console.WriteLine("Hello, World!");
 Console.WriteLine(CalculateAverage([1, 4, 6, 8]));
+Console.WriteLine(CalculateMax([1, 4, 6, 8]));
 
 static double CalculateAverage(int[] input)
 {
     return input.Average();
+}
+
+static double CalculateMax(int[] input)
+{
+    return input.Max();
 }
